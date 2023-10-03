@@ -1,0 +1,13 @@
+/*ini adalah tipe selector HTML*/
+body {
+    background:
+        white url() no-repeat top right
+}
+
+p {
+    color: red;
+}
+
+p {
+    color: green;
+}
