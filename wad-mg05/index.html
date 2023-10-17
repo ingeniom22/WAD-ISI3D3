@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laithan Web</title>
+</head>
+
+<body>
+    <h1>Apa yang dapat dilakukan JavaScript</h1>
+
+    <p id="demo">Tekan tombol untuk mengubah konten</p>
+    <button type="button" onclick={getProfileData()}>
+        Click Me!
+    </button>
+
+    <script>
+        const getProfileData = () => {
+            const biodata = {
+                "nama": "James Michael Fritz",
+                "kelas": "SI4506",
+                "umur": 22,
+                "gender": "Laki-laki",
+                "pekerjaan": "Mahasiswa",
+                "instansi": "Universitas Telkom",
+                "jurusan": "Sistem Informasi",
+                "NIM": "1202213091"
+
+            };
+
+            var output = '';
+            for (var property in biodata) {
+                output += property + ': ' + biodata[property] + '<br>';
+            }
+
+            // document.getElementById('demo').innerHTML = JSON.stringify(biodata);
+            document.getElementById('demo').innerHTML = output;
+        }
+    </script>
+</body>
+
+</html>
