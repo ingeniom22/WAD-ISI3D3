@@ -5,39 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laithan Web</title>
+
+    <!-- Include Bootstrap CSS from a CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        /* background image */
+        body {
+            background-image: url('wp9081316.webp');
+            /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .js-text {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>Apa yang dapat dilakukan JavaScript</h1>
+<body class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <!-- Vertically and horizontally center content -->
+    <div class="container text-center">
+        <div class="row-cols-10">
+            <div class="col mb-2">
+                <h1 class="display-1">Apa yang dapat dilakukan <span class="js-text">JavaScript</span>?</h1>
+            </div>
+        </div>
 
-    <p id="demo">Tekan tombol untuk mengubah konten</p>
-    <button type="button" onclick={getProfileData()}>
-        Click Me!
-    </button>
+        <div class="col mb-2">
+            <h class="display-4 " id="demo">Tekan tombol untuk mengubah konten</h>
+        </div>
+        <div class="col mb-2">
+            <button type="button" class="btn btn-primary btn-lg" onclick="redirectToIndexPage()">
+                Click Me!
+            </button>
+        </div>
+    </div>
+
+
+    </div>
 
     <script>
-        const getProfileData = () => {
-            const biodata = {
-                "nama": "James Michael Fritz",
-                "kelas": "SI4506",
-                "umur": 22,
-                "gender": "Laki-laki",
-                "pekerjaan": "Mahasiswa",
-                "instansi": "Universitas Telkom",
-                "jurusan": "Sistem Informasi",
-                "NIM": "1202213091"
-
-            };
-
-            var output = '';
-            for (var property in biodata) {
-                output += property + ': ' + biodata[property] + '<br>';
-            }
-
-            // document.getElementById('demo').innerHTML = JSON.stringify(biodata);
-            document.getElementById('demo').innerHTML = output;
+        function redirectToIndexPage() {
+            // Use window.location.href to navigate to the desired page.
+            window.location.href = "MODUL1 JAMES/index.html";
         }
     </script>
+
+    <!-- Include Bootstrap JavaScript and jQuery from the same CDN (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

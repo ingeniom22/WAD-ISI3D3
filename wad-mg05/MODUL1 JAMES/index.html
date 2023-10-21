@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Michael Fritz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body class="container mt-3 px-5">
+    <nav class="navbar navbar-expand-lg bg-gradient px-5 py-3 rounded-5">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">My Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Media
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Github</a></li>
+                            <li><a class="dropdown-item" href="#">Linkedin</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Additional Contacts</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-3 justify-content-center">
+        <div class="row mt-5 mb-5 mx-auto">
+            <div class="col my-auto mx-auto justify-content-center">
+                <h1 class="display-1">Hi! I'm James Michael Fritz</h1>
+            </div>
+            <div class="col my-auto mx-auto justify-content-center">
+                <img src="img\foto1-1.jpg" class="rounded-circle mx-auto w-75 h-75" alt="Profile Picture">
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+            <div class="col-md-8 text-center mx-auto">
+                <div class="d-grid">
+                    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Contact Me
+                    </button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Let's grab a coffee!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="staticName" class="col-sm-2 col-form-label">Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control-plaintext" id="staticName"
+                                                placeholder="Your name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Message</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control-plaintext" id="inputMessage"
+                                                placeholder="Enter your message">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+            <div class="col mt-5 px-3">
+                <div class="card rounded-3">
+                    <img src="img\markus-spiske-iar-afB0QQw-unsplash.jpg" class="card-img-top rounded-top-3"
+                        alt="FastAPI">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Vision</h5>
+                        <p class="card-text">Alzheimer Classification with ResNext</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5 px-3">
+                <div class="card rounded-3">
+                    <img src="img\alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" class="card-img-top rounded-top-3"
+                        alt="FastAPI">
+                    <div class="card-body">
+                        <h5 class="card-title">NLP</h5>
+                        <p class="card-text">Sentiment Analysis with BERT</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5 px-3">
+                <div class="card rounded-3">
+                    <img src="img\luca-bravo-XJXWbfSo2f0-unsplash.jpg" class="card-img-top rounded-top-3" alt="FastAPI">
+                    <div class="card-body">
+                        <h5 class="card-title">RecSys</h5>
+                        <p class="card-text">Hybrid recommender system with LightFM</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+            <div class="col-md-10 mt-5 mb-5 mx-auto">
+                <div id="carouselExampleIndicators" class="carousel slide mx-auto">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded-5">
+                        <div class="carousel-item active">
+                            <img src="img\luca-bravo-XJXWbfSo2f0-unsplash.jpg" class="w-100" alt="Project Showcase">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Microservices</h5>
+                                <p>Docker</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\markus-spiske-iar-afB0QQw-unsplash.jpg" class="w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Deployment</h5>
+                                <p>FastAPI</p>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item rounded-5">
+                            <img src="img\alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" class="w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>XGBoost</h5>
+                                <p>All you need</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <nav aria-label="Pagination">
+            <ul class="pagination justify-content-end">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; James Michael Fritz</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Me</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Project Showcase</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Media</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
