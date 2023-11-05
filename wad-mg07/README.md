@@ -7,11 +7,13 @@
 ## Skema Basis Data
 
 File basis data sampel dapat ditemukan [di sini](wad-mg07.sql)
+<br />
+
 ![Gambar Skema Basis Data](db-schema.png)
 
 ### Pendahuluan
 
-Dokumentasi ini menjelaskan implementasi CRUD (Create, Read, Update, Delete) menggunakan PHP Native, MySQL, dan Bootstrap 5 dalam konteks manajemen stok Fast Food. Tujuan dari tugas ini adalah untuk memberikan panduan penggunaan aplikasi ini.
+Dokumentasi ini menjelaskan implementasi CRUD (Create, Read, Update, Delete) menggunakan PHP Native, MySQL, dan Bootstrap 5 dalam konteks manajemen stok Fast Food.
 
 ### Fitur Aplikasi
 
@@ -30,6 +32,7 @@ Aplikasi ini memiliki beberapa fitur utama:
 Berikut adalah panduan penggunaan aplikasi ini:
 
 #### Menampilkan Daftar Produk
+
 1. Jalankan aplikasi index.php dengan XAMPP atau dengan VSCode Extension: PHP Serve
 
 2. Buka aplikasi di browser Anda dengan mengakses URL http://localhost:3000/wad-mg07/index.php.
