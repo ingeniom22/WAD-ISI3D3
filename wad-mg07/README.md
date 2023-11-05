@@ -6,7 +6,7 @@
 
 ## Skema Basis Data
 
-File basis data sampel dapat ditemukan di sini: wad-mg07\wad-mg07.sql
+File basis data sampel dapat ditemukan ![di sini](wad-mg07.sql)
 ![Gambar Skema Basis Data](db-schema.png)
 
 ### Pendahuluan
